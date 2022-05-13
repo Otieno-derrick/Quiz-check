@@ -67,6 +67,10 @@
     color: red;
 }
 
+.buton:active{
+    color: #f512f5;
+}
+
 .display{
     position: absolute;
     top: 40%;
