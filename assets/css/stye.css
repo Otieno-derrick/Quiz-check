@@ -41,6 +41,7 @@
 
 .button:hover{
     color: #8a061c;
+    letter-spacing: 2px;
 }
 
 .buton:visited{
@@ -49,10 +50,10 @@
 
 .buton{
     background-color: transparent;
-    color: #0a0a3a;
+    color: #82db0d;
     font-size: 20px;
     border-radius: 7px;
-    border: 2px solid  #134c63;
+    border: 2px solid  #ec43a6;
     /* pad: 11px 26px; */
     outline: none;
     cursor: pointer;
@@ -61,7 +62,8 @@
 }
 
 .buton:hover{
-    color: blueviolet;
+    color: #3229b8;
+    letter-spacing: 2px;
 }
 .buton:visited{
     color: red;
@@ -189,5 +191,8 @@ h1{
      animation-delay: 7s;
 }
 
+@media  screen and (max-width:785px) {
+    padding: 40px;
+}
 
 
