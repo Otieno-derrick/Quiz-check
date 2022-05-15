@@ -1,25 +1,98 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>Quiz</title>
 </head>
+
 <body>
 
-    <header>
-
-        <div>
+    <heade   value="board">
             <h2>QUIZ BOARD</h2>
         </div>
-    </header>
+    </head   value="quiz-form" id="quetions">
+        <form action="">
+          <p>Inside which HTML element do we put the JavaScript?</p>
+          <ul>
+             <li><input type="radio" name="quiz.a" value="&lt;script&gt;">&lt;script&gt;</li>
+             <li><input type="radio" name="quiz.a" value="&lt;javascript&gt;">&lt;javascript&gt;</li>
+             <li><input type="radio" name="quiz.a" value=">&lt;scripting&gt;">>&lt;scripting&gt;</li>
+             <li><input type="radio" name="quiz.a" value=">&lt;scripting&gt;">>&lt;scripting&gt;</li>
+          </ul>
+          <p>Where is the correct place to insert a JavaScript?</p>
+          <ul>
+             <li><input type="radio" name="quiz.b" value="The &lt;head&gt; section">The &lt;head&gt; section</li>
+             <li><input type="radio" name="quiz.b" value="The &lt;body&gt; section">The &lt;body&gt; section</li>
+             <li><input type="radio" name="quiz.b" value="Both the &lt;head&gt; section and the &lt;body&gt; section are correctsolution">Both the &lt;head&gt; section and the &lt;body&gt; section are correctsolution</li>
+          </ul>
 
-    div class
-    <div class="quiz-form">
+          <p>What is the correct syntax for referring to an external script called 'xxx.js'?"</p>
+          <ul>
+             <li><input type="radio" name="quiz.c" value="&lt;script href=&quot;xxx.js&quotsolution">&lt;script href=&quot;xxx.js&quotsolution</li>
+             <li><input type="radio" name="quiz.c" value="&lt;script name=&quot;xxx.js&quot;&gt">&lt;script name=&quot;xxx.js&quot;&gt</li>
+             <li><input type="radio" name="quiz.c" value="&lt;script src=&quot;xxx.js&quot;&gt">&lt;script src=&quot;xxx.js&quot;&gt</li>
+         </ul>
+ 
+         <p>The external JavaScript file must contain the &lt;script&gt; tag</p>
+         <ul>
+             <li><input type="radio" name="quiz.d" value="True">True</li>
+             <li><input type="radio" name="quiz.d" value=False">False</li>
+         </ul>
 
+         <p>How do you write &quot;Hello World&quot; in an alert box?</p>
+         <ul>
+             <li><input type="radio" name="quiz.e" value="alertBox(&quot;Hello World&quot;);">alertBox(&quot;Hello World&quot;);</li>
+             <li><input type="radio" name="quiz.e" value="msg(&quot;Hello World&quot;);">msg(&quot;Hello World&quot;);</li>
+             <li><input type="radio" name="quiz.e" value="alert(&quot;Hello World&quot;);">alert(&quot;Hello World&quot;);</li>
+             <li><input type="radio" name="quiz.e" value="msgBox(&quot;Hello World&quot;);">msgBox(&quot;Hello World&quot;);</li>
+         </ul>
 
-    </div>
+         <p>What does CSS stand for?</p>
+         <ul>
+             <li><input type="radio" name="quiz.f" value="Color style sheet">Color style sheet</li>
+             <li><input type="radio" name="quiz.f" value="computer style sheet">computer style sheet</li>
+             <li><input type="radio" name="quiz.f" value="cascading style sheet">cascading style sheet</li>
+             <li><input type="radio" name="quiz.f" value="Ceative style sheet">Ceative style sheet</li>
+          </ul>
 
+         <p>Which of the correct syntax to add the external stylesheet in CSS ?</p>
+         <ul>
+             <li><input type="radio" name="quiz.g" value="(&quot;style src = quiz.css&quot;)">(&quot;style src = quiz.css&quot;)</li>
+             <li><input type="radio" name="quiz.g" value="&quot;style src = 'quiz.css'&quot;">&quot;style src = "quiz.css"&quot;</li>
+             <li><input type="radio" name="quiz.g" value="&quot;stylesheet> quiz.css </stylesheet&quot;">&quot;stylesheet> quiz.css </stylesheet&quot;</li>
+             <li><input type="radio" name="quiz.g" value="&quot;link rel="stylesheet" type="quiz/css" href="quiz.css&quot;">&quot;link rel="stylesheet" type="quiz/css" href="quiz.css&quot;</li>
+         </ul>
 
+         <p>Which of the below CSS properties is used to change the background color of CSS ?</p>
+         <ul>
+             <li><input type="radio" name="quiz.h" value="bg color">bg color</li>
+             <li><input type="radio" name="quiz.h" value="color-background">color-background</li>
+             <li><input type="radio" name="quiz.h" value="background-colo">background-color</li>
+             <li><input type="radio" name="quiz.h" value="Color">Color</li>
+         </ul>
+
+         <p>What is the purpose of &quot;!DOCTYPE html&quot;</p>
+         <ul>
+             <li><input type="radio" name="quiz.i" value="provides the web browser with security information">provides the web browser with security information</li>
+             <li><input type="radio" name="quiz.i" value="instructs the browser where to look for your CSS files">instructs the browser where to look for your CSS file</li>
+             <li><input type="radio" name="quiz.i"  value="lows programmers to link to files in-line">lows programmers to link to files in-line</li>
+             <li><input type="radio" name="quiz.i" value="Tells the web browser what language to expect">Tells the web browser what language to expect</li>
+         </ul>
+         
+         <p>Which tag is used for a line break?</p>
+         <ul>
+             <li><input type="radio" name="quiz.j"   value="&quot;br&quot">&quot;br&quot</li>
+             <li><input type="radio" name="quiz.j"   value="&quot;break&quot;">&quot;break&quot;</li>
+             <li><input type="radio" name="quiz.j"   value="&quot;line&quot;">&quot;line&quot;</li>
+             <li><input type="radio" name="quiz.j"   value="&quot;page&quot;&quot;page&quot;">&qot;page&quot;&quot;page&quot;</li>
+          </ul>
+       </form>
+       <button id="butn" onclick="myFunction()">Submmit</button>
+    </div>   
+    <script type="text/javascript" src="test.js"></script>
 </body>
+
 </html>
