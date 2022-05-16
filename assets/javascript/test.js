@@ -32,9 +32,9 @@
 
    if (q6=="cascading style sheet") {i++}
 
-    if (q8=='"link rel="stylesheet" type="quiz/css" href="quiz.css"') {i++}
+    if (q7=='"link rel="stylesheet" type="quiz/css" href="quiz.css"') {i++}
 
-   if (q8=="color-background") {i++}
+   if (q8=="background-color") {i++}
    
    if (q9=="Tells the web browser what language to expect") {i++}
 
