@@ -51,12 +51,12 @@
 function getpercentage(i) {
   percentage = (i / 10) * 100;
   if (percentage >= 80) {
-    alert("" + percentage + "%" + "perfomed well!" )  
+    alert("" + percentage + "%" + "Excelt!" )  
   }
   else if (percentage >= 50 && percentage < 80) {
-    alert("" + percentage + "%" + "fairly passed!" )  
+    alert("" + percentage + "%" + "fairly done!" )  
   }
   else {
-    alert("" + percentage + "%" + "poorly performed!" )  
+    alert("" + percentage + "%" + "pooly done!" )  
   }
 }

@@ -193,7 +193,13 @@ h1{
 }
 
 @media  screen and (max-width:785px) {
-    padding: 40px;
+    .logo{
+        display: block;
+        text-align: center;
+    }
+    .buton{
+        display: none;
+    }
 }
 
 
