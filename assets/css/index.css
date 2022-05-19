@@ -1,16 +1,34 @@
- *{
-    box-sizing: border-box;
+body{
+    background-color: #b62c5a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
 
  }
     
 
-#butn{
-   padding-left: 200px;
-   color: bisque;
-   background-color: black;
+ul{
+    list-style: none;
+    font-size: 15px;
 }
 
 
+#num{
+    font-size:14px ;
+    color: #b62c5a;;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: blueviolet;
+
+}
+
 h2{
-    font-size:3em; 
+    font-size: 30px;
+}  
+
+
+p{
+    font-size: 20px;
 }

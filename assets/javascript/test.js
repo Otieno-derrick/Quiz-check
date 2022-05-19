@@ -1,5 +1,8 @@
+ var i=0;
+ var percentage = 0;
+
  function myFunction() {
-   var i=0;
+   
    var q1=document.test.quiz1.value;
 
    var q2=document.test.quiz2.value;
@@ -26,21 +29,34 @@
 
    if (q3=='<script src="xxx.js">') {i++}
 
-   if (q4=="true") {i++}
+   if (q4=="True") {i++}
 
    if (q5=='alert("Hello World");') {i++}
 
    if (q6=="cascading style sheet") {i++}
 
-    if (q8=='"link rel="stylesheet" type="quiz/css" href="quiz.css"') {i++}
+    if (q7=="function functionName() {/body}") {i++}
 
-   if (q8=="color-background") {i++}
+   if (q8=="background-color") {i++}
    
    if (q9=="Tells the web browser what language to expect") {i++}
 
    if (q10=='"br"') {i++}
 
-    document.write(i);
+    alert(i);
+    alert("results" + getpercentage(i))
 
+}
 
+function getpercentage(i) {
+  percentage = (i / 10) * 100;
+  if (percentage >= 80) {
+    alert("" + percentage + "%" + "Excelt!" )  
+  }
+  else if (percentage >= 50 && percentage < 80) {
+    alert("" + percentage + "%" + "fairly done!" )  
+  }
+  else {
+    alert("" + percentage + "%" + "pooly done!" )  
+  }
 }
