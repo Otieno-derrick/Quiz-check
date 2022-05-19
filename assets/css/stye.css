@@ -5,7 +5,7 @@
 }
 
 .derri{
-    background-image: url(/assets/img/jk.webp);
+    background-image: url(./jk.webp);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -192,7 +192,9 @@ h1{
 }
 
 @media  screen and (max-width:785px) {
-    padding: 40px;
+   border-style {
+       padding: 40px;
+   }
 }
 
 
